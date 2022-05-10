@@ -12,34 +12,48 @@
     rel="stylesheet" />
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
-  <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    
+  <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
 </head>
 
 <body>
   <!-- верхняя линия -->
-  <header class="header-decor">
-    <div class="container min">
-      <nav class="main-nav">
-        <a href="" class="logo"><span class="web">Web</span>Studio</a>
-        <ul class="site-nav list">
-          <li class="item"><a href="./index.html" class="link  menu-link">Студия</a></li>
-          <li class="item"><a href="./portfolio.html" class="link current menu-link">Портфолио</a>
+  <header class="header"> 
+  
+    <div class="container">
+           
+      <nav class="header__nav">
+    
+        <a href="" class="header__logo"><span class="header__web">Web</span>Studio</a>
+              
+
+        <ul class="site-nav">
+
+          <li class="site-nav__item"><a href="./index.html" class="site-nav__link  ">Студия</a></li>
+        
+          <li class="site-nav__item">
+            <a href="./portfolio.html" class="site-nav__link current">Портфолио</a>
           </li>
-          <li class="item"><a href="" class="link menu-link">Контакты</a></li>
+          <li class="site-nav__item"><a href="" class="site-nav__link">Контакты</a></li>
         </ul>
       </nav>
 
-      <ul class="auth-nav list">
-
-        <li class="item">
-          <a href="info@devstudio.com" class="info-nav">
-            <svg class="nav-envelope hed-icon" width="16px" height="12px">
+      <ul class="auth-nav ">
+        
+        <li class=" auth-nav__item ">
+        
+          <a href="info@devstudio.com" class="auth-nav__info">
+            
+            <svg class="auth-nav__envelope auth-nav__icon" width="16px" height="12px">
+              
               <use href="./images/icons.svg.svg#icon-envelope"></use>
             </svg>info@devstudio.com</a>
         </li>
-        <li class="item">
-          <a href="+380961111111" class="info-nav">
-            <svg class="nav-smartphone hed-icon" width="10px" height="16px">
+        <li class=" auth-nav__item ">
+          <a href="+380961111111" class="auth-nav__info">
+            <svg class="auth-nav__smartphone auth-nav__icon" width="10px" height="16px">
+              
               <use href="./images/icons.svg.svg#icon-smartphone"></use>
             </svg>+38 096 111 11 11</a>
         </li>
@@ -84,11 +98,14 @@
           <li class="cards">
 
             <a href="#" class="dec-non cards-foc">
+              <!-- cards_item -->
               <div class="cards-effect">
+
                 <img src="images/img4.jpg" alt="пример веб сайта" width="370" />
                 <div class="cards-text-box">
-
+                 <!-- cards_text-box -->
                   <p class="text-cards">Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                    <!-- cards_text -->
                     сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
                   </p>
 
@@ -97,7 +114,9 @@
               </div>
               <div class="cards-border">
                 <h2 class="project-title">Технокряк</h2>
+                <!-- cards_project-title -->
                 <p class="description">Веб-сайт</p>
+                <!-- cards_description -->
               </div>
             </a>
           </li>
