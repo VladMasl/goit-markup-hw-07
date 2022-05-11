@@ -369,6 +369,7 @@ body {
 
 .performance__img-text {
   font-style: normal;
+  text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -1007,7 +1008,7 @@ footer {
   padding: 6px 22px;
   box-sizing: border-box;
   min-width: 70px;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.06em;
