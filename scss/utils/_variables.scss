@@ -10,7 +10,7 @@ $color-HoVbootton: rgb(25, 170, 250);
 $portfolio-color: rgba(238, 238, 238, 1);
 $primary-fill: rgba(175, 177, 184, 1);
 $primary-cardscolor: rgba(33, 150, 243, 0.9);
-$transition: 2050ms;
+$transition: 250ms;
 
 
 html {
@@ -30,11 +30,13 @@ html {
 ul,
 li,
 a {
-  text-decoration: none;
+  
   list-style: none;
   padding: 0;
   margin: 0;
 }
+
+
 
 h1,
 h2,
@@ -61,18 +63,7 @@ body {
   margin: 0;
 }
 
-.secret {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
+
 
 .section {
   text-align: center;
@@ -88,4 +79,5 @@ body {
   padding-right: 15px;
   width: 1200px;
 }
+
 

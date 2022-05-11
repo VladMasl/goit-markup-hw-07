@@ -1,4 +1,5 @@
 @import "./utils/variables";
+@import "./utils/visually-hidden";
 @import "./components/header";
 @import "./components/logo";
 @import "./components/index/heroes";
@@ -6,3 +7,7 @@
 @import "./components/index/perfomance";
 @import "./components/index/team";
 @import "./components/index/clients";
+@import "./components/index/modal";
+@import "./components/footer";
+@import "./components/portfolio/portfolio";
+@import "./components/portfolio/cards";
